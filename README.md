@@ -27,4 +27,5 @@ Pump power is read from analog input A0.
 The main program reads A0, then scales from 0-1023 to 0-128 for an actual pot that is connected to +5V, A0 and ground
 
 Can also use ESP32 analog output, to let ESP32 control pump power for automated pressure profiling.
+Change scale to be from 0-675 to 0-128 for a 3.3V output to A0
 

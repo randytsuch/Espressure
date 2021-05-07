@@ -64,15 +64,12 @@ Connecting to 1/8 npt pressure transducer, get 200 psi version
 4n25/26 info
 http://www.martyncurrey.com/activating-the-shutter-release/ 
 CTR > 20
-If = 60 ma max, typ
-15V output from AC transformer.  1.2V drop across diode input of 4N26 .  Aim for 10mA=0.010A current
-15V-1.2V=13.8V
+If = 10 ma target
+120 VAC   Had a 10k, 7w resistor.
+120v/10k = 12ma
+120*120/12k=1.2 watts
 
-13.8V/0.010A=1380 ohms resistor
-For 1.3k resistor
-13.8V/1300 = 10.6mA for input,   With CTR of 20, 10.6ma * 0.2 = 2.1ma output current min
-
-2x680 ohm = 2 ma min output
+With CTR of 20, 12ma * 0.2 = 2.4ma output current
 
 On the output side, I used a 8.1k pullup resistor to 5V
 5/8100= 0.6ma  That's how much current I need to pull the signal down

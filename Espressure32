@@ -72,14 +72,7 @@ If = 60 ma max, typ
 For 1.3k resistor
 13.8V/1300 = 10.6mA for input,   With CTR of 20, 10.6ma * 0.2 = 2.1ma output current min
 
-2x560 = 2.4ma min output
-2x620 = 2.2 ma min output
-2x680 = 2 ma min output
-2x750 = 1.8 ma min output
-
-For 3.3k resistor
-13.8V/3300=4mA for input,  With CTR of 20,  4ma * 0.2 = 0.8ma output current min
-Note that typ CTR = 50.  If 50, then 4ma*.5= 2 ma output typ
+2x680 ohm = 2 ma min output
 
 On the output side, I used a 8.1k pullup resistor to 5V
 5/8100= 0.6ma  That's how much current I need to pull the signal down
